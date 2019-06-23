@@ -1,6 +1,6 @@
 # require modules here
-
-def load_library
+# as per the translator_spec.rb there is one arg 
+def load_library(path)
   
 end
 
