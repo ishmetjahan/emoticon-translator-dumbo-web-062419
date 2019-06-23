@@ -1,5 +1,6 @@
 # require modules here
 require "yaml"
+require "pry"
 # as per the translator_spec.rb there is one arg, "the file path"
 def load_library(path)
   emoticons = YAML.load_file(path)
