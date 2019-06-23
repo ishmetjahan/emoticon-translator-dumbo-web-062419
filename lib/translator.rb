@@ -8,7 +8,7 @@ def load_library(path)
   emoHash["get_meaning"]= Hash.new
   emoticons.each do |word, img|
     emoHash["get_emoticon"][img.first]= img.last 
-    emoHash["get_meaning"][img.first]= word
+    emoHash["get_meaning"][img.last]= word
   end
   emoHash
 end
